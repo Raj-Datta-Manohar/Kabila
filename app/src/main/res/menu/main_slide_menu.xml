@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group
+    android:id="@+id/g1">
+
+    <item
+        android:id="@+id/msm_cart"
+        android:icon="@drawable/icon_s_shopping_cart"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/msm_orders"
+        android:icon="@drawable/icon_s_order"
+        android:title="My Orders" />
+
+    <item
+        android:id="@+id/msm_wishlist"
+        android:icon="@drawable/icon_s_wishlist"
+        android:title="WishList" />
+
+    <item
+        android:id="@+id/msm_seller_account"
+        android:icon="@drawable/icon_s_account"
+        android:title="Seller Account" />
+
+    <item
+        android:id="@+id/msm_coupons"
+        android:icon="@drawable/icon_s_coupons"
+        android:title="My Coupons" />
+
+</group>
+
+<group
+    android:id="@+id/g2" >
+
+    <item
+        android:id="@+id/msm_men"
+        android:icon="@drawable/icon_s_men"
+        android:title="Men" />
+
+    <item
+        android:id="@+id/msm_women"
+        android:icon="@drawable/icon_s_women"
+        android:title="Women" />
+
+    <item
+        android:id="@+id/msm_children"
+        android:icon="@drawable/icon_s_kids"
+        android:title="Children" />
+
+    <item
+        android:id="@+id/msm_handicafts"
+        android:icon="@drawable/icon_s_handicraft"
+        android:title="Handicrafts" />
+
+    <item
+        android:id="@+id/msm_jewellery"
+        android:icon="@drawable/icon_s_jewellery"
+        android:title="Jewellery" />
+
+    <item
+        android:id="@+id/msm_metalcrafts"
+        android:icon="@drawable/icon_s_metal_crafts"
+        android:title="Metal Crafts" />
+
+    <item
+        android:id="@+id/msm_paintings"
+        android:icon="@drawable/icon_s_paintings"
+        android:title="Paintings" />
+
+    <item
+        android:id="@+id/msm_tribes_heritage"
+        android:icon="@drawable/icon_s_tribe_heritage"
+        android:title="Tribes Heritage" />
+
+    <item
+        android:id="@+id/msm_home_decor"
+        android:icon="@drawable/icon_s_home_decor"
+        android:title="Home Decor" />
+
+</group>
+
+<group
+    android:id="@+id/g3" >
+
+    <item
+        android:id="@+id/msm_language"
+        android:title="\tLanguage" />
+
+    <item
+        android:id="@+id/msm_settings"
+        android:title="\tSettings" />
+
+    <item
+        android:id="@+id/msm_contact"
+        android:title="\tContact Us" />
+
+    <item
+        android:id="@+id/msm_tandc"
+        android:title="\tTerms and Conditions" />
+
+    <item
+        android:id="@+id/msm_faq"
+        android:title="\tFAQ's" />
+
+</group>
+
+</menu>

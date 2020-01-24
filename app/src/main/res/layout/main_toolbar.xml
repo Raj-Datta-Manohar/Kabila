@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_toolbar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <TextView
+                android:id="@+id/toolbar_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center_vertical"
+                android:paddingTop="8dp"
+                android:text="@string/app_name"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_toolbar_search"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="0.1"
+                app:queryHint="Search for products &amp; sellers"/>
+
+            <ru.nikartm.support.ImageBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_toolbar_notifications"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="0.1"
+                android:src="@drawable/icon_s_notification" />
+
+            <ru.nikartm.support.ImageBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_toolbar_wishlist"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="0.1"
+                android:src="@drawable/icon_s_wishlist" />
+
+            <ru.nikartm.support.ImageBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_toolbar_cart"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_weight="0.1"
+                android:src="@drawable/icon_s_shopping_cart" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>
